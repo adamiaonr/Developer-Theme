@@ -952,6 +952,12 @@
 .fa-github-alt:before {
   content: "\f113";
 }
+.fa-cv-alt:before {
+  font-family: 'Lato', arial, sans-serif;
+  font-weight: bold;
+  content: "CV";
+  -webkit-font-smoothing: antialiased;
+}
 .fa-folder-o:before {
   content: "\f114";
 }

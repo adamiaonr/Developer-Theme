@@ -10,10 +10,12 @@
 body {
   font-family: 'Lato', arial, sans-serif;
   color: #434343;
-  background: #DAE3E7;
+  background: #0080FF;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*  -moz-osx-font-smoothing: grayscale;
+*/  
+  color: #000000;
 }
 h1,
 h2,
@@ -23,10 +25,12 @@ h5,
 h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: #778492;
+/*  color: #778492;*/
+  color: #000000;
 }
 a {
-  color: #3AAA64;
+/*  color: #3AAA64;*/
+  color: #0080FF;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -34,8 +38,8 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #5f6b77;
-  color: #2d844e;
+  color: #0080FF;
+  color: #0080FF;
 }
 a:focus {
   text-decoration: none;
@@ -117,8 +121,8 @@ iframe {
 /* ======= Header ======= */
 .header {
   padding: 30px 0;
-  background: #f5f5f5;
-  border-top: 10px solid #778492;
+  background: #0080FF;
+  border-top: 10px solid #FFFFFF;
 }
 .header .btn {
   margin-top: 60px;
@@ -128,13 +132,13 @@ iframe {
   margin-right: 30px;
 }
 .header .profile-content .name {
-  color: #49515a;
+  color: #FFFFFF;
   font-size: 38px;
   margin-bottom: 5px;
   margin-top: 30px;
 }
 .header .profile-content .desc {
-  color: #778492;
+  color: #FFFFFF;
   font-family: "Lato", arial, sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -142,7 +146,7 @@ iframe {
   margin-bottom: 15px;
 }
 .header .profile-content .social a {
-  background: #b0b7bf;
+  background: #FFFFFF;
   width: 36px;
   height: 36px;
   display: inline-block;
@@ -154,11 +158,11 @@ iframe {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  color: #fff;
+  color: #0080FF;
   text-align: center;
 }
 .header .profile-content .social a:hover {
-  background: #778492;
+  background: #000000;
 }
 .header .profile-content .social a .fa {
   font-size: 20px;
@@ -166,7 +170,7 @@ iframe {
 }
 /* ======= Sections======= */
 .sections-wrapper {
-  padding-top: 60px;
+  padding-top: 0px;
   padding-bottom: 60px;
 }
 .section {
@@ -175,11 +179,12 @@ iframe {
 .section .section-inner {
   background: #fff;
   padding: 30px;
+  border-radius: 20px;
 }
 .section .heading {
   margin-top: 0;
   margin-bottom: 30px;
-  color: #545e69;
+  color: #000000;
   font-size: 24px;
 }
 .section .content .more-link .fa {
@@ -289,10 +294,10 @@ iframe {
   line-height: 1.5;
 }
 .projects .item .title a {
-  color: #778492;
+  color: #000000;
 }
 .projects .item .title a:hover {
-  color: #5f6b77;
+  color: #0080FF;
 }
 /* Work Section */
 .experience .item {
@@ -498,17 +503,17 @@ iframe {
 }
 /* ======= Footer ======= */
 .footer {
-  background: #32383e;
-  color: #fff;
+  background: #FFFFFF;
+  color: #000000;
   padding: 10px 0;
 }
 .footer .copyright {
   line-height: 1.6;
-  color: #a1aab4;
+  color: #000000;
   font-size: 14px;
 }
 .footer a {
-  color: #fff;
+  color: #000000;
 }
 .footer .fa-heart {
   color: #fb866a;
@@ -540,6 +545,7 @@ iframe {
 /* Ex-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1400px) {
   .container {
-    width: 1360px;
+    width: 1200px;
+    margin: auto;
   }
 }
